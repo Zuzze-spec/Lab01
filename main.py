@@ -1,9 +1,11 @@
-class Quiz:
-    def __init__(self, question, difficulty, correct_answer, wrong_answer1, wrong_answer2, wrong_answer3):
-        self.question = question
-        self.difficulty = difficulty
-        self.correct_answer = correct_answer
-        self.wrong_answer1 = wrong_answer1
-        self.wrong_answer2 = wrong_answer2
-        self.wrong_answer3 = wrong_answer3
+f = open ("domande.txt,r").read().splitlines()
+
+#f contiene una lista di righe del file
+#open(nomefile,modalità) r= modalità read file
+#splitlines divide la stringa ogni volta che trova un \n e restituisce una lista
+
+# creo la lista di oggetto domanda
+d=[]
+#creo una lista vuota che conterrà le domande
+
 
